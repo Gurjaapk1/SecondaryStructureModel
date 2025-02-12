@@ -1,0 +1,20 @@
+IN PROGRESS (Secondary structure model)
+
+This repository contains a deep learning model implemented in PyTorch to predict secondary protein structures from amino acid sequences.
+
+Features
+
+LSTM-based Model: Uses a bidirectional LSTM network for sequence learning.
+
+Amino Acid Embedding: Encodes sequences into dense vector representations.
+
+Train & Evaluate: Includes scripts for training and evaluating the model.
+
+Our dataset consists of:
+input amino acid sequences, and their DSSP8 encoing - which is their secondary structure annotations
+
+Running the Full Program
+
+To execute the entire workflow (loading data, training, and evaluating the model), run:
+
+python3 -m Scripts__main__.py INP/Sequences.csv Output.csv
